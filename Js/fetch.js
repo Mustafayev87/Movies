@@ -1,6 +1,6 @@
+const movieDetail = document.getElementById("movieDetail");
 const movieSearch = document.getElementById("movieSearch");
-const movieDetal = document.getElementById("movieDetal");
-
+console.log(movieDetail, movieSearch);
 movieSearch.addEventListener("keydown", function (x) {
   if (x.key === "Enter") {
     const movieTitle = this.value;
